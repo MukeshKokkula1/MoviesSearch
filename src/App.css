@@ -1,0 +1,15 @@
+.input {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.main-heading {
+  margin-top: 20px;
+  font-size: 44px;
+  margin-bottom: 12px;
+  color: salmon;
+}
+.table-container {
+  width: 70%;
+  border: 1px solid red;
+  margin-top: 30px;
+}

@@ -1,0 +1,21 @@
+.table-contain {
+  width: 80%;
+  border: 2px solid darkcyan;
+  margin-top: 30px;
+}
+
+th {
+  padding: 15px;
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+}
+td {
+  text-align: center;
+}
+
+.series-title {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 600;
+}
