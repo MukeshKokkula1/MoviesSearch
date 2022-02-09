@@ -28,6 +28,7 @@ const Series = ({ data }) => {
                 <a
                   target="_blank"
                   rel="noreferrer"
+                  className="tag-link"
                   href={`${item.thumbnail.path}.${item.thumbnail.extension}`}
                 >
                   {`${item.thumbnail.path}.${item.thumbnail.extension}`}
@@ -37,7 +38,7 @@ const Series = ({ data }) => {
                 <img
                   src={`${item.thumbnail.path}.${item.thumbnail.extension}`}
                   alt="img"
-                  height="140px"
+                  className="image"
                 />
               </td>
             </tr>

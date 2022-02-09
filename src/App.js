@@ -35,7 +35,7 @@ function App() {
             className="form-control input"
             onChange={onChangeHandler}
             value={search}
-            placeholder="Enter a Movie Name"
+            placeholder="Enter a Movie Name..."
           />
           <button type="submit" className="btn btn-primary">
             Search

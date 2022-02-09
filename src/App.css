@@ -1,15 +1,20 @@
 .input {
-  width: 40%;
+  width: 60%;
   margin-bottom: 20px;
+}
+@media only screen and (min-width: 720px) {
+  .input {
+    width: 40%;
+  }
 }
 .main-heading {
   margin-top: 20px;
-  font-size: 44px;
+  font-size: 34px;
   margin-bottom: 12px;
   color: salmon;
 }
-.table-container {
-  width: 70%;
-  border: 1px solid red;
-  margin-top: 30px;
+@media only screen and (min-width: 720px) {
+  .main-heading {
+    font-size: 44px;
+  }
 }
